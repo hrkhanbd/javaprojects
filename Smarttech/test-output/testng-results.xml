@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-25T11:52:02Z" name="Suite" finished-at="2022-05-25T11:52:20Z" duration-ms="18114">
+    <groups>
+      <group name="regression">
+        <method signature="LinkTesting1.linkTesting1()[pri:0, instance:testNG.LinkTesting1@767e20cf]" name="linkTesting1" class="testNG.LinkTesting1"/>
+        <method signature="TNG_002.amazon()[pri:0, instance:testNG.TNG_002@1817f1eb]" name="amazon" class="testNG.TNG_002"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TNG_002.amazon()[pri:0, instance:testNG.TNG_002@1817f1eb]" name="amazon" class="testNG.TNG_002"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-05-25T11:52:02Z" name="Test" finished-at="2022-05-25T11:52:20Z" duration-ms="18114">
+      <class name="testNG.LinkTesting1">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testNG.LinkTesting1@767e20cf]" started-at="2022-05-25T11:52:10Z" name="beforeMethod" finished-at="2022-05-25T11:52:15Z" duration-ms="5506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="linkTesting1()[pri:0, instance:testNG.LinkTesting1@767e20cf]" started-at="2022-05-25T11:52:15Z" name="linkTesting1" finished-at="2022-05-25T11:52:16Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTesting1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.LinkTesting1@767e20cf]" started-at="2022-05-25T11:52:16Z" name="afterMethod" finished-at="2022-05-25T11:52:20Z" duration-ms="4316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG.LinkTesting1 -->
+      <class name="testNG.TNG_002">
+        <test-method is-config="true" signature="startup(java.lang.String)[pri:0, instance:testNG.TNG_002@1817f1eb]" started-at="2022-05-25T11:52:02Z" name="startup" finished-at="2022-05-25T11:52:06Z" duration-ms="4059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="amazon()[pri:0, instance:testNG.TNG_002@1817f1eb]" started-at="2022-05-25T11:52:06Z" name="amazon" finished-at="2022-05-25T11:52:10Z" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="endprocess()[pri:0, instance:testNG.TNG_002@1817f1eb]" started-at="2022-05-25T11:52:10Z" name="endprocess" finished-at="2022-05-25T11:52:10Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endprocess -->
+      </class> <!-- testNG.TNG_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

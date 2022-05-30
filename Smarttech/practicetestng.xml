@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="firefox"></parameter>
+      <classes>
+      <class name="com.testng.practice.LinkTesting1"/>
+      <class name="com.testng.practice.CheckBox1"/>
+      <class name="com.testng.practice.RadioButton1"/>
+      <class name="com.testng.practice.TNG_002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
